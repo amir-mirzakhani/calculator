@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3a3b3c;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input:not(.text, .show) {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  border: 0;
+  font-size: 25px;
+  font-weight: 700px;
+  background-color: #3a3b3c;
+  color: white;
+  cursor: pointer;
+}
+input[type="button"]:hover {
+  background-color: white;
+  color: black;
+}
+.output {
+  width: 100%;
+  padding: 10px;
+}
+.output .text {
+  width: 100%;
+  padding: 10px;
+  font-size: 25px;
+  text-align: right;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.result {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.result .show {
+  width: 100%;
+  padding: 0 10px;
+  font-size: 25px;
+  text-align: right;
+  border: none;
+  background-color: black;
+  color: white;
+  display: none;
+}
+.output .text,
+.show:focus {
+  outline: none;
+}
+.equal {
+  width: 160px !important;
+  height: 50px !important;
+  border-radius: 10px !important;
+}

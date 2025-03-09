@@ -32,5 +32,5 @@ This is a simple calculator application created using HTML, CSS, and JavaScript.
 
 This project is licensed under the MIT License.
 
-<img src="./asset/Screenshot (1).png" alt="">
+<img src="./asset/Screenshot (2).png" alt="screenshot of project">
 You can see the <a href="https://amir-mirzakhani.github.io/calculator/">demo</a> here
